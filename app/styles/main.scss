@@ -4,11 +4,32 @@ $icon-font-path: '../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "../../bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+
+
+.clock-container { 
+  display: inline-block;
+  width: 30%;
+  padding-bottom: 100%;
+  vertical-align: middle;
+  overflow: hidden;
+  background: clear;
+  position:fixed;
+} 
+
+#hour, #min, #sec { 
+  stroke-width: 1px;
+  fill: grey;
+  stroke: white;
 }
+#sec { stroke: red; }
 
-
+#b1 { background: hsl(0, 50%, 50%); }
+#b2 { background: hsl(30, 50%, 50%); }
+#b3 { background: hsl(60, 50%, 50%); }
+#b4 { background: hsl(90, 50%, 50%); }
+#b5 { background: hsl(120, 50%, 50%); }
+#b6 { background: hsl(150, 50%, 50%); }
+#b7 { background: hsl(180, 50%, 50%); }
+#b8 { background: hsl(210, 50%, 50%); }
+#b9 { background: hsl(240, 50%, 50%); }
+#b10 { background: hsl(270, 50%, 50%); }
